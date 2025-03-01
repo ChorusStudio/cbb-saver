@@ -6,7 +6,6 @@ data modify entity @s Glowing set value 1b
 # 无敌
 data modify entity @s Health set value 11451.4f
 data modify entity @s Invulnerable set value 1b
-data modify entity @s CanPickUpLoot set value 0b
 
 # 防止5分钟刷没
 data modify entity @s Age set value 0s
