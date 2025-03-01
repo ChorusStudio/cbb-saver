@@ -1,4 +1,4 @@
-package me.noryea.cbbhopperpatch;
+package me.noryea.cbbsaver;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
@@ -8,15 +8,15 @@ import net.minecraftforge.fml.common.Mod;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(CbbHopperPatchForge.MOD_ID)
-public class CbbHopperPatchForge {
+@Mod(CbbSaverForge.MOD_ID)
+public class CbbSaverForge {
 
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "cbbhopperpatch";
+    public static final String MOD_ID = "cbbsaver";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public CbbHopperPatchForge() {
+    public CbbSaverForge() {
         MinecraftForge.EVENT_BUS.register(this);
     }
 

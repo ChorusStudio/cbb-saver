@@ -1,4 +1,4 @@
-package me.noryea.cbbhopperpatch.mixin;
+package me.noryea.cbbsaver.mixin;
 
 import net.minecraft.world.Container;
 import net.minecraft.world.entity.item.ItemEntity;
