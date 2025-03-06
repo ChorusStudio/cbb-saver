@@ -1,4 +1,6 @@
 # @executor: 指令书掉落物
+# 因为凋暴模组不开源, 所以用 mcfunction 实现命令书无敌+高亮+禁止猎人捡起
+# 这样也带来另一个好处：临时维护时，可以直接修改.mcfunction文件，不用重新编译模组
 
 # 发光
 data modify entity @s Glowing set value 1b
